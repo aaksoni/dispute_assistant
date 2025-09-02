@@ -1,0 +1,21 @@
+,dispute_id,suggested_action,justification
+0,D001,Auto-refund,Validated duplicate charge (999). High confidence (0.97) and amount below auto-refund threshold (1000).
+1,D002,Manual review,Refund request (1250). Moderate amount requires policy verification before processing.
+2,D003,Auto-refund,"High confidence failed transaction (500). Status confirmed, safe for automatic refund."
+3,D004,Mark as potential fraud,Fraud reported for 1200. High confidence (0.80) warrants fraud flag and investigation.
+4,D005,Manual review,Refund request (750). Moderate amount requires policy verification before processing.
+5,D006,Manual review,Duplicate charge detected (1499) but requires manual verification due to amount or confidence level.
+6,D007,Manual review,Failed transaction (299) needs verification. Confidence: 0.67
+7,D008,Manual review,High-value unclear dispute (5400). Human review required due to amount significance.
+8,D009,Ask for more info,Dispute classification unclear (1899). Additional information needed from customer.
+9,D010,Manual review,Refund request (650). Moderate amount requires policy verification before processing.
+10,D011,Ask for more info,Unclear dispute (220). Small amount - gather more details before processing.
+11,D012,Manual review,Failed transaction (430) needs verification. Confidence: 0.69
+12,D013,Manual review,Duplicate charge detected (2100) but requires manual verification due to amount or confidence level.
+13,D014,Manual review,High-value refund (9800). Manual review required for refund policy compliance.
+14,D015,Auto-refund,"High confidence failed transaction (399). Status confirmed, safe for automatic refund."
+15,D016,Escalate to bank,High-value fraud case (5200). Bank investigation required for amounts >=5000.
+16,D017,Ask for more info,Dispute classification unclear (875). Additional information needed from customer.
+17,D018,Manual review,Duplicate charge detected (1299) but requires manual verification due to amount or confidence level.
+18,D019,Manual review,Failed transaction (25000) needs verification. Confidence: 0.63
+19,D020,Manual review,Duplicate charge detected (1800) but requires manual verification due to amount or confidence level.

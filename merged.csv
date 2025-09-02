@@ -1,0 +1,27 @@
+,dispute_id,customer_id,txn_id_x,description,txn_type,channel_x,amount_x,created_at,txn_id_y,amount_y,status,timestamp,channel_y,merchant
+0,D001,C001,T001,I got charged twice for the same UPI payment,UPI,Mobile,999,2025-08-01 10:23:11,T001,999,SUCCESS,2025-08-01 10:22:50,Mobile,UPI@StoreA
+1,D001,C001,T001,I got charged twice for the same UPI payment,UPI,Mobile,999,2025-08-01 10:23:11,T001_DUP1,999,SUCCESS,2025-08-01 10:23:05,Mobile,UPI@StoreA
+2,D002,C002,T002,My NEFT failed but money is not refunded,NEFT,Web,1250,2025-08-01 11:55:09,T002,1250,FAILED,2025-08-01 11:54:30,Web,NEFT@BankX
+3,D003,C003,T003,Transaction shows failed but money was debited,CARD,POS,500,2025-08-01 12:10:43,T003,500,FAILED,2025-08-01 12:10:30,POS,CARD@ShopB
+4,D004,C004,T004,I did not make this payment. This is fraud.,CARD,Mobile,1200,2025-08-01 13:30:01,T004,1200,SUCCESS,2025-08-01 13:29:50,Mobile,CARD@AppC
+5,D005,C005,T005,Still waiting for refund after canceled transaction,CARD,Web,750,2025-08-01 14:02:18,T005,750,CANCELLED,2025-08-01 13:58:20,Web,CARD@SiteD
+6,D006,C006,T006,Duplicate charge for the same merchant within minutes,CARD,Mobile,1499,2025-08-01 15:11:05,T006,1499,SUCCESS,2025-08-01 15:10:45,Mobile,CARD@AppE
+7,D006,C006,T006,Duplicate charge for the same merchant within minutes,CARD,Mobile,1499,2025-08-01 15:11:05,T006_DUP1,1499,SUCCESS,2025-08-01 15:11:00,Mobile,CARD@AppE
+8,D007,C007,T007,UPI transfer failed but account is debited,UPI,Mobile,299,2025-08-01 16:45:30,T007,299,FAILED,2025-08-01 16:45:05,Mobile,UPI@UserVPA1
+9,D008,C008,T008,NEFT credited to wrong beneficiary per my statement,NEFT,Web,5400,2025-08-01 17:20:12,T008,5400,SUCCESS,2025-08-01 17:19:55,Web,NEFT@BankY
+10,D009,C009,T009,Chargeback requested as I don't recognize this card txn,CARD,Web,1899,2025-08-02 09:12:44,T009,1899,SUCCESS,2025-08-02 09:12:10,Web,CARD@SiteF
+11,D010,C010,T010,Refund pending for a week after failed POS swipe,CARD,POS,650,2025-08-02 10:05:10,T010,650,FAILED,2025-08-02 09:59:59,POS,CARD@POS_Terminal_12
+12,D011,C011,T011,Got two UPI debit messages for one QR scan,UPI,QR,220,2025-08-02 10:25:18,T011,220,SUCCESS,2025-08-02 10:24:50,QR,UPI@CafeQ
+13,D011,C011,T011,Got two UPI debit messages for one QR scan,UPI,QR,220,2025-08-02 10:25:18,T011_DUP1,220,SUCCESS,2025-08-02 10:25:05,QR,UPI@CafeQ
+14,D012,C012,T012,"Payment stuck in pending, not sure if merchant got it",UPI,Mobile,430,2025-08-02 11:01:56,T012,430,PENDING,2025-08-02 11:01:10,Mobile,UPI@UserVPA2
+15,D013,C013,T013,EMI card was charged twice this month,CARD,Web,2100,2025-08-02 12:44:39,T013,2100,SUCCESS,2025-08-02 12:44:10,Web,CARD@EMIProvider
+16,D013,C013,T013,EMI card was charged twice this month,CARD,Web,2100,2025-08-02 12:44:39,T013_DUP1,2100,SUCCESS,2025-08-02 12:44:28,Web,CARD@EMIProvider
+17,D014,C014,T014,My NEFT is showing processed but beneficiary says not received,NEFT,Web,9800,2025-08-02 13:30:21,T014,9800,PROCESSED,2025-08-02 13:29:58,Web,NEFT@BankZ
+18,D015,C015,T015,Got debited after payment failed on gateway,CARD,Web,399,2025-08-02 14:02:07,T015,399,FAILED,2025-08-02 14:01:39,Web,CARD@GatewayG
+19,D016,C016,T016,This transaction looks suspicious. I didn't authorize it,CARD,Mobile,5200,2025-08-03 09:31:45,T016,5200,SUCCESS,2025-08-03 09:31:10,Mobile,CARD@WalletH
+20,D017,C017,T017,Refund for canceled order not received,UPI,Mobile,875,2025-08-03 10:42:11,T017,875,SUCCESS,2025-08-03 10:41:42,Mobile,UPI@StoreI
+21,D018,C018,T018,"Duplicate UPI transfer to same VPA, minutes apart",UPI,Mobile,1299,2025-08-03 11:15:00,T018,1299,SUCCESS,2025-08-03 11:14:30,Mobile,UPI@StoreJ
+22,D018,C018,T018,"Duplicate UPI transfer to same VPA, minutes apart",UPI,Mobile,1299,2025-08-03 11:15:00,T018_DUP1,1299,SUCCESS,2025-08-03 11:14:52,Mobile,UPI@StoreJ
+23,D019,C019,T019,NEFT failed but amount not reversed yet,NEFT,Web,25000,2025-08-03 11:55:27,T019,25000,FAILED,2025-08-03 11:55:00,Web,NEFT@BankX
+24,D020,C020,T020,Card charged twice at petrol pump,CARD,POS,1800,2025-08-03 12:20:49,T020,1800,SUCCESS,2025-08-03 12:20:20,POS,CARD@FuelPumpK
+25,D020,C020,T020,Card charged twice at petrol pump,CARD,POS,1800,2025-08-03 12:20:49,T020_DUP1,1800,SUCCESS,2025-08-03 12:20:36,POS,CARD@FuelPumpK
