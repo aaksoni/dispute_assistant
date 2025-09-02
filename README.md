@@ -126,8 +126,8 @@ jupyter notebook T1_Dispute_classification.ipynb
 **Expected Output**:
 - `classified_disputes.csv` with columns: dispute_id, predicted_category, confidence, explanation
 - `task1_dispute_trends.png` - Classification visualization
-<img width="4362" height="2955" alt="task1_dispute_trends" src="https://github.com/user-attachments/assets/6a1e709c-df0d-49cb-8c8d-20192aebca29" />
 
+<img width="4362" height="2955" alt="task1_dispute_trends" src="https://github.com/user-attachments/assets/58dadf3c-db86-45f6-bb30-c2c31d366315" />
 
 
 ### Task 2: Resolution Suggestion
@@ -158,7 +158,7 @@ jupyter notebook T2_Resolution_Suggestion.ipynb
 - `resolutions.csv` with columns: dispute_id, suggested_action, justification
 - `task2_resolution_trends.png` - Resolution action distribution
 
-<img width="4732" height="3540" alt="task2_resolution_trends" src="https://github.com/user-attachments/assets/10ff5f2d-e951-41a8-bf0f-a27ddad45cbe" />
+<img width="4732" height="3540" alt="task2_resolution_trends" src="https://github.com/user-attachments/assets/41b39374-3d92-449a-add4-4c5fb8c8ff0a" />
 
 
 ### Task 3: Intelligent Query Processing
@@ -192,7 +192,8 @@ streamlit run T3_streamlit_app.py
 
 # Access at: http://localhost:8501
 ```
-<img width="987" height="589" alt="Screenshot 2025-09-02 at 3 03 58 PM" src="https://github.com/user-attachments/assets/1ce67179-dded-49f4-86da-8f42b641515d" />
+<img width="987" height="589" alt="Screenshot 2025-09-02 at 3 03 58 PM" src="https://github.com/user-attachments/assets/e35ebdb2-a614-4da2-9440-c2ebf6b9611f" />
+
 
 **Option 2: CLI/Programmatic Interface**
 ```bash
@@ -239,7 +240,7 @@ streamlit run T3_streamlit_app.py
 # 3. View generated pandas code
 # 4. See interactive results
 ```
-<img width="766" height="531" alt="Screenshot 2025-09-02 at 3 13 48 PM" src="https://github.com/user-attachments/assets/97ac6daf-4640-4bf3-a28f-bc262ba753f5" />
+<img width="766" height="531" alt="Screenshot 2025-09-02 at 3 13 48 PM" src="https://github.com/user-attachments/assets/01e86aef-2eaa-4046-921b-6409ca4a4c20" />
 
 
 **Programmatic Usage:**
